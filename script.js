@@ -104,7 +104,7 @@ $(function() {
     }
     write();
     $('#addW').on('click', function(event) {
-        words.push({
+        words.unshift({
             word: $('#inputs_word').val(),
             trans: $('#inputs_trans').val(),
         })
